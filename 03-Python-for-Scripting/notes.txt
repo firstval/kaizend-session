@@ -1,0 +1,30 @@
+wifi:
+#peanutbutterguest / showmethegoods
+
+codebase:
+https://github.com/cr8ivecodesmith/py_scripting
+
+
+# Exercise 1:
+- Create a copy of boilerplate.py
+- Add a new (optional) parameter called '--file'
+- If a value is passed in the '--file' parameter,
+  print the contents of the file.
+
+Extra:
+- Make the '--file' parameter required
+- Make the '--file' parameter accept more than 1 file
+
+# Exercise 2:
+- Create a copy of sub_commands.py
+- Add a new sub command called 'bacon'
+- The 'bacon' sub command will call a function
+  named 'bacon'
+- The bacon sub command accepts a 'file' parameter
+- When the file parameter is given, print the contents
+  of the file.
+
+Reference:
+- argparse doc:
+https://docs.python.org/3/library/argparse.html
+
